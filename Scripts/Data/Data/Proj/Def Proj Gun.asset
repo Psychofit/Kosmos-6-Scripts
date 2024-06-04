@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f5e539c55c650468e6ab9c4b2073b9, type: 3}
+  m_Name: Def Proj Gun
+  m_EditorClassIdentifier: Assembly-CSharp:Cosmos_Six:ProjectileDefinition
+  Id: 7cb031b2-f26b-4518-a5c4-91096450bbb2
+  Name: Gun
+  DefinitionType: 0
+  DefinitionPrefab: {fileID: 4304090236528357490, guid: 0f4b86afc1292034f86bafe22edef693,
+    type: 3}
+  ProjectileVelocityDefinition: {fileID: 11400000, guid: db88b28e1c1dceb438084c0e66f0f9e3,
+    type: 2}
+  Damage: 100
+  LifetimeTotal: 10
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 1048577
+  RaycastDistance: 1.5
+  DelayAfterHit: 0.1
+  ImpactPrefab: {fileID: 0}
